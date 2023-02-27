@@ -1,0 +1,53 @@
+ body {
+ 	background-color: #D3D3D3;
+ }
+.flex-container {
+	display: flex;
+    justify-content: space-around;
+	background-color: darkred;
+	background-color: darkred;
+    border-style: solid;
+}
+.flex-container > div {
+	background-color: lightgrey;
+	width: 100px;
+	margin: 10px;
+	line-height: 75px;
+	padding: 20px;
+    border-style: solid;
+	text-align: center;
+	font-size: 50px;
+	font-family: fantasy;
+}
+.p {
+	font-size: 30px;
+	text-align: center;
+	font-family: monospace;
+}
+.grid-container {
+  display: grid;
+  border-color: black;
+  grid-template-columns: auto auto auto auto;
+  gap: 50px 100px;
+  background-color: darkred;
+  border-style: solid;
+  padding: 50px 100px;
+}
+
+.grid-container > div {
+  background-color: lightgrey;
+  text-align: center;
+  padding: 25px 50px;
+  border-style: solid;
+  font-size: 30px;
+  font-size: 50px;
+font-family: fantasy;
+}
+.flex-container > div:hover {
+	 background-color: darkgrey;
+    cursor: pointer;
+}
+.grid-container > div:hover {
+	 background-color: darkgrey;
+    cursor: pointer;
+    }
